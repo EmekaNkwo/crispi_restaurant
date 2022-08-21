@@ -20,7 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   min-height: 100vh;
 }
 
@@ -52,6 +51,12 @@
   width: 80%;
 }
 
+.logo_text{
+   color: var(--color-golden);
+   font-size: 2.4rem;
+   font-weight: bold;
+}
+
 .custom__button {
   background-color: var(--color-crimson);
     color: var(--color-black);
@@ -65,6 +70,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    margin:1rem 0;
 }
 .custom__button:hover {
   opacity: 0.8;

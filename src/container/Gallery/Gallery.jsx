@@ -24,7 +24,7 @@ const Gallery = () => {
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Food is an important part of a balanced diet. Check out our Instagram Page for more pictures of our cuisines</p>
-        <button type="button" className="custom__button">View More</button>
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="custom__button">View More</a>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

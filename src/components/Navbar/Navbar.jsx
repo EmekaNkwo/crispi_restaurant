@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <h2 className="logo_text">Crispi</h2>
+        <a href="/" className="logo_text">Crispi</a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>

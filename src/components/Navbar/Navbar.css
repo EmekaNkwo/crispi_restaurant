@@ -12,10 +12,6 @@
     justify-content: flex-start;
     align-items: center;
 }
-.logo_text{
-   color: var(--color-golden);
-   font-size: 2.4rem;
-}
 
 /* .app__navbar-logo img {
     width: 150px;
